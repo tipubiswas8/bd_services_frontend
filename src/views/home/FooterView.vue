@@ -1,5 +1,7 @@
 <template>
   <div class="main-div">
+    <RouterLink to="/bootstrap">Custom Bootstrap</RouterLink>
+    <RouterLink to="/tailwind">Custom Tailwind</RouterLink>
     <RouterLink to="/about">About</RouterLink>
     <router-link to="/contact">Contact us</router-link>
   </div>

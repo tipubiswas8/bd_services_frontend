@@ -15,9 +15,24 @@ const router = createRouter({
       component: () => import('../views/home/LoginView.vue'),
     },
     {
-      path: '/register',
-      name: 'register',
-      component: () => import('../views/home/RegistrationView.vue'),
+      path: '/boot-register',
+      name: 'bootRegister',
+      component: () => import('../views/home/BootRegistrationView.vue'),
+    },
+    {
+      path: '/tail-register',
+      name: 'tailRegister',
+      component: () => import('../views/home/TailRegistrationView.vue'),
+    },
+    {
+      path: '/bootstrap',
+      name: 'bootstrap',
+      component: () => import('../views/home/CustomBootstrap.vue'),
+    },
+    {
+      path: '/tailwind',
+      name: 'tailwind',
+      component: () => import('../views/home/CustomTailwind.vue'),
     },
     {
       path: '/about',

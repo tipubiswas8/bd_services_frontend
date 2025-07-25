@@ -1,7 +1,8 @@
 <template>
     <div class="main-div">
       <RouterLink to="/login">Login</RouterLink>
-      <router-link to="/register">Register</router-link>
+      <router-link to="/boot-register">Bootstrap Register</router-link>
+      <router-link to="/tail-register">Tailwind Register</router-link>
     </div>
 </template>
 
