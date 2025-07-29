@@ -1,4 +1,50 @@
 <template>
+
+  <div class="ms-grid ms-grid-cols-12 ms-gap-5">
+    <div class="ms-col-span-12 ms-md:col-span-3 ms-lg:col-span-2 ms-bg-pink-500">
+      div-1
+    </div>
+    <div class="ms-col-span-12 ms-md:col-span-6 ms-lg:col-span-7">
+      <div class="ms-grid ms-grid-cols-12 ms-gap-2">
+        <div class="ms-col-span-6 ms-md:col-span-7 ms-lg:col-span-8 ms-bg-green-500">div-2/1</div>
+        <div class="ms-col-span-6 ms-md:col-span-5 ms-lg:col-span-4 ms-bg-gray-500">div-2/2</div>
+      </div>
+    </div>
+    <div class="ms-col-span-12 ms-md:col-span-3 ms-lg:col-span-3 ms-bg-blue-500">
+      div-3
+    </div>
+  </div>
+  <br>
+  <div class="ms-grid ms-grid-cols-12">
+    <div
+      class="ms-col-span-12 ms-sm:col-span-10 ms-md:col-span-8 ms-lg:col-span-6 ms-xl:col-span-4 ms-2xl:col-span-2 ms-bg-red-500">
+      Landing Page1
+    </div>
+  </div>
+  <hr>
+  <div>
+    <div class="
+  ms-w-full
+  ms-sm:w-10/12
+  ms-md:w-8/12
+  ms-lg:w-6/12
+  ms-xl:w-4/12
+  ms-2xl:w-2/12
+  ms-bg-gray-500
+">
+      Landing Page2
+    </div>
+  </div>
+
+  <hr>
+  <div class="ms-grid ms-grid-rows-12 ms-h-screen">
+    <div
+      class="ms-row-span-12 ms-sm-row-span-10 ms-md-row-span-8 ms-lg-row-span-6 ms-xl-row-span-4 ms-2xl-row-span-2 ms-bg-green-500">
+      Landing Page13
+    </div>
+  </div>
+
+
   <button @click="toggleTheme">Toggle Theme</button>
 
   <h1 class="ms-text-center">Form-1</h1>
@@ -97,7 +143,7 @@
 
   <br>
   <hr>
-  
+
   <h1 class="ms-text-center">Grid</h1>
   <div class="ms-bg-yellow-800 ms-text-white">
     <div class="ms-grid ms-grid-cols-4 ms-gap-4">

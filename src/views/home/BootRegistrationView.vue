@@ -1,4 +1,25 @@
 <template>
+
+  <div class="my-container">
+    <div class="my-row">
+      <div class="my-bg-primary my-col-12 my-col-md-8 my-col-lg-4">Landing Page</div>
+
+      <div class="my-col-12 my-col-md-8 my-col-lg-4">
+        <div class="my-row">
+          <div class="my-bg-info my-col-12 my-col-md-8 my-col-lg-4">AAA</div>
+          <div class="my-bg-success my-col-12 my-col-md-4 my-col-lg-8">BBB</div>
+        </div>
+      </div>
+
+      <div class="my-col-12">
+        <div class="my-row">
+          <div class="my-bg-danger my-col-12 my-col-md-8 my-col-lg-4">CCC</div>
+          <div class="my-bg-warning my-col-12 my-col-md-4 my-col-lg-8">DDD</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <h1 class="my-text-center">Form-1</h1>
   <form @submit.prevent="submitForm">
     <!-- Extra small (xs) and small (sm) - single column and label and input on different line -->

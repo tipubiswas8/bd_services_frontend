@@ -1,4 +1,60 @@
 <template>
+  <div class="my-container-fluid">
+    <div class="my-row">
+      <div>
+        <div class="my-col-12 my-col-sm-10 my-col-md-8 my-col-lg-6 my-col-xl-4 my-col-xxl-2">
+          <div class="my-bg-primary">Landing Page</div>
+        </div>
+      </div>
+    </div>
+  </div>
+<hr>
+  <div class="my-container">
+    <div class="my-row my-g-3">
+      <div class="my-col-12 my-col-sm-10 my-col-md-8 my-col-lg-6 my-col-xl-4 my-col-xxl-2">
+        <div class="my-bg-dark">
+          <div class="my-col-12 my-col-sm-10 my-col-md-8 my-col-lg-6 my-col-xl-4 my-col-xxl-2">
+            <div class="my-bg-primary">1</div>
+            <div class="my-bg-secondary">2</div>
+            <div class="my-bg-info">3</div>
+            <div class="my-bg-success">4</div>
+            <div class="my-bg-danger">5</div>
+            <div class="my-bg-warning">6</div>
+            <div class="my-bg-primary">7</div>
+            <div class="my-bg-secondary">8</div>
+            <div class="my-bg-info">9</div>
+            <div class="my-bg-success">10</div>
+            <div class="my-bg-danger">11</div>
+            <div class="my-bg-warning">12</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-col-12 my-col-md-8 my-col-lg-4">
+        <div class="my-row my-g-3">
+          <div class="my-col-12 my-col-md-8 my-col-lg-4">
+            <div class="my-bg-info">AAA</div>
+          </div>
+          <div class="my-col-12 my-col-md-4 my-col-lg-8">
+            <div class="my-bg-success">BBB</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-col-12">
+        <div class="my-row my-g-3">
+          <div class="my-col-12 my-col-md-8 my-col-lg-4">
+            <div class="my-bg-success">CCC</div>
+          </div>
+          <div class="my-col-12 my-col-md-4 my-col-lg-8">
+            <div class="my-bg-warning">DDD</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <h1 class="my-text-center">Form-1</h1>
   <form @submit.prevent="submitForm">
     <!-- Extra small (xs) and small (sm) - single column and label and input on different line -->
@@ -149,7 +205,7 @@
       </div>
     </div>
   </form>
-  
+
   <h1 class="my-text-center">Form-2</h1>
   <form @submit.prevent="submitForm">
     <div class="my-container">
